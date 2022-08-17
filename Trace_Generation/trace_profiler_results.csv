@@ -1,0 +1,319 @@
+RowNumber,EventClass,TextData,ApplicationName,LoginName,CPU,Reads,Writes,Duration,ClientProcessID,SPID,StartTime,EndTime,DatabaseID,DatabaseName,EventSequence,RowCounts,TransactionID,RequestID
+0,65528,NULL,,,,,,,,,,,,,,,,
+1,65534,NULL,,,,,,,,,11:48.9,,,,,,,
+2,10,"exec [sys].sp_datatype_info_100 12,@ODBCVer=4",Python,temp,0,1053,0,10285,22076,60,11:58.3,11:58.4,1,master,1675,5,370094,0
+3,10,"exec [sys].sp_datatype_info_100 -9,@ODBCVer=4",Python,temp,0,74,0,226,22076,60,11:58.4,11:58.4,1,master,1676,6,370094,0
+4,10,"exec [sys].sp_datatype_info_100 -3,@ODBCVer=4",Python,temp,0,72,0,374,22076,60,11:58.4,11:58.4,1,master,1677,5,370094,0
+5,10,"exec [sys].sp_datatype_info_100 93,@ODBCVer=4",Python,temp,0,76,0,242,22076,60,11:58.4,11:58.4,1,master,1678,7,370094,0
+6,12,select * from Telecom.dbo.telecom_users,Python,temp,0,128,0,2002716,22076,60,11:58.4,12:00.4,1,master,1679,0,,0
+7,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,128,0,2006770,22076,60,12:00.4,12:02.4,8,Weather,1680,0,370094,0
+8,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,114,0,4428,22076,60,12:02.4,12:02.4,8,Weather,1681,1,370094,0
+9,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5112,22076,60,12:04.4,12:04.4,8,Weather,1682,1,370094,0
+10,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2003952,22076,60,12:06.4,12:08.4,6,Students,1683,0,370094,0
+11,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,49,0,2004360,22076,60,12:08.4,12:10.4,8,Weather,1684,0,370094,0
+12,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2003001,22076,60,12:10.4,12:12.4,8,Weather,1685,0,370094,0
+13,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,143,0,1757,22076,60,12:12.4,12:12.4,8,Weather,1686,1,370094,0
+14,12,select * from Weather.dbo.weather,Python,temp,0,6,0,2005776,22076,60,12:14.4,12:16.4,8,Weather,1687,0,370094,0
+15,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,1,0,844,22076,60,12:16.4,12:16.4,8,Weather,1688,1,370094,0
+16,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,84,0,2004273,22076,60,12:18.4,12:20.4,5,CabRides,1689,0,370094,0
+17,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,1073,22076,60,12:20.4,12:20.4,5,CabRides,1690,1,370094,0
+18,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2005731,22076,60,12:22.4,12:24.4,5,CabRides,1691,0,370094,0
+19,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,49,0,2004573,22076,60,12:24.4,12:26.4,8,Weather,1692,0,370094,0
+20,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,39,0,3905,22076,60,12:26.4,12:26.4,8,Weather,1693,1,370094,0
+21,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,754,22076,60,12:28.4,12:28.4,8,Weather,1694,1,370094,0
+22,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,2604,22076,60,12:30.4,12:30.4,8,Weather,1695,1,370094,0
+23,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,10,0,239,22076,60,12:32.4,12:32.4,8,Weather,1696,1,370094,0
+24,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,27,0,1020,22076,60,12:34.4,12:34.4,8,Weather,1697,1,370094,0
+25,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,2,0,422,22076,60,12:36.5,12:36.5,8,Weather,1698,1,370094,0
+26,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,1,0,298,22076,60,12:38.5,12:38.5,8,Weather,1699,1,370094,0
+27,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,1,0,199,22076,60,12:40.5,12:40.5,8,Weather,1700,1,370094,0
+28,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,68,0,2011466,22076,60,12:42.5,12:44.5,5,CabRides,1701,0,370094,0
+29,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,64,0,1375,22076,60,12:44.5,12:44.5,5,CabRides,1702,1,370094,0
+30,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2944,22076,60,12:46.5,12:46.5,5,CabRides,1703,1,370094,0
+31,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,1019,22076,60,12:48.5,12:48.5,5,CabRides,1704,1,370094,0
+32,12,select * from Telecom.dbo.telecom_users,Python,temp,0,7,0,2004721,22076,60,12:50.5,12:52.5,5,CabRides,1705,0,370094,0
+33,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2000271,22076,60,12:52.5,12:54.5,5,CabRides,1706,0,370094,0
+34,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,33,0,2006274,22076,60,12:54.5,12:56.6,8,Weather,1707,0,370094,0
+35,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,19,0,762,22076,60,12:56.6,12:56.6,8,Weather,1708,1,370094,0
+36,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2008137,22076,60,12:58.6,13:00.6,8,Weather,1709,0,370094,0
+37,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,155,22076,60,13:00.6,13:00.6,8,Weather,1710,1,370094,0
+38,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,15,84,0,2010246,22076,60,13:02.6,13:04.6,5,CabRides,1711,0,370094,0
+39,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,19,0,2763,22076,60,13:04.6,13:04.6,5,CabRides,1712,1,370094,0
+40,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2011845,22076,60,13:06.6,13:08.6,5,CabRides,1713,0,370094,0
+41,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,16,27,0,2893,22076,60,13:08.6,13:08.6,5,CabRides,1714,1,370094,0
+42,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,32,0,2019888,22076,60,13:10.6,13:12.6,8,Weather,1715,0,370094,0
+43,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2002107,22076,60,13:12.6,13:14.6,8,Weather,1716,0,370094,0
+44,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,771,22076,60,13:14.6,13:14.6,8,Weather,1717,1,370094,0
+45,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,68,0,2005737,22076,60,13:16.6,13:18.6,5,CabRides,1718,0,370094,0
+46,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2002848,22076,60,13:18.6,13:20.6,5,CabRides,1719,0,370094,0
+47,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,2,0,132,22076,60,13:20.6,13:20.6,5,CabRides,1720,1,370094,0
+48,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,59,0,4690,22076,60,13:22.6,13:22.7,5,CabRides,1721,1,370094,0
+49,12,SET DEADLOCK_PRIORITY -10,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,79,9728,52,13:23.9,13:23.9,1,master,1722,0,,0
+50,12,SELECT target_data           FROM sys.dm_xe_session_targets xet WITH(nolock)           JOIN sys.dm_xe_sessions xes WITH(nolock)           ON xes.address = xet.event_session_address           WHERE xes.name = 'telemetry_xevents'           AND xet.target_name = 'ring_buffer',SQLServerCEIP,NT SERVICE\SQLTELEMETRY,16,300,0,65322,9728,52,13:23.9,13:23.9,1,master,1723,1,,0
+51,10,exec sp_reset_connection,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,19,9728,52,13:24.0,13:24.0,1,master,1724,,,0
+52,12,SET DEADLOCK_PRIORITY -10,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,30,9728,52,13:24.0,13:24.0,1,master,1725,0,,0
+53,12,"if exists(select * from sys.server_event_sessions where name='telemetry_xevents')   drop event session telemetry_xevents on server    create event session telemetry_xevents on server   ADD EVENT [sqlserver].[error_reported]  (  WHERE severity >= 16 or (error_number = 18456     or error_number = 17803 or error_number = 701 or error_number = 802 or error_number = 8645 or error_number = 8651     or error_number = 8657 or error_number = 8902 or error_number = 41354 or error_number = 41355 or error_number = 41367     or error_number = 41384 or error_number = 41336 or error_number = 41309 or error_number = 41312 or error_number = 41313     or error_number = 33065 or error_number = 33066)  ),     ADD EVENT [sqlserver].[missing_column_statistics],     ADD EVENT [sqlserver].[missing_join_predicate],     ADD EVENT [sqlserver].[server_memory_change],     ADD EVENT [sqlserver].[stretch_database_disable_completed],     ADD EVENT [sqlserver].[stretch_database_enable_completed],     ADD EVENT [sqlserver].[stretch_database_reauthorize_completed],     ADD EVENT [sqlserver].[stretch_index_reconciliation_codegen_completed],     ADD EVENT [sqlserver].[stretch_remote_column_execution_completed],     ADD EVENT [sqlserver].[stretch_remote_column_reconciliation_codegen_completed],     ADD EVENT [sqlserver].[stretch_remote_index_execution_completed],     ADD EVENT [sqlserver].[stretch_table_codegen_completed],     ADD EVENT [sqlserver].[stretch_table_alter_ddl],     ADD EVENT [sqlserver].[stretch_table_create_ddl],     ADD EVENT [sqlserver].[stretch_table_predicate_not_specified],     ADD EVENT [sqlserver].[stretch_table_predicate_specified],     ADD EVENT [sqlserver].[stretch_table_remote_creation_completed],     ADD EVENT [sqlserver].[stretch_table_row_migration_results_event],     ADD EVENT [sqlserver].[stretch_table_row_unmigration_results_event],     ADD EVENT [sqlserver].[stretch_table_data_reconciliation_results_event],     ADD EVENT [sqlserver].[stretch_table_unprovision_completed],     ADD EVENT [sqlserver].[stretch_table_validation_error],     ADD EVENT [sqlserver].[stretch_table_hinted_admin_update_event],     ADD EVENT [sqlserver].[stretch_table_hinted_admin_delete_event],     ADD EVENT [sqlserver].[stretch_table_query_error],     ADD EVENT [sqlserver].[stretch_remote_error],     ADD EVENT [sqlserver].[stretch_query_telemetry],     ADD EVENT [sqlserver].[temporal_ddl_system_versioning],     ADD EVENT [sqlserver].[temporal_dml_transaction_fail],     ADD EVENT [sqlserver].[temporal_ddl_period_add],     ADD EVENT [sqlserver].[temporal_ddl_period_drop],     ADD EVENT [sqlserver].[temporal_ddl_schema_check_fail],     ADD EVENT [sqlserver].[data_masking_ddl_column_definition],     ADD EVENT [sqlserver].[data_masking_traffic],     ADD EVENT [sqlserver].[data_masking_traffic_masked_only],     ADD EVENT [sqlserver].[data_classification_ddl_column_definition],     ADD EVENT [sqlserver].[data_classification_traffic],     ADD EVENT [sqlserver].[data_classification_auditing_traffic],     ADD EVENT [sqlserver].[feature_restriction_ddl],     ADD EVENT [sqlserver].[feature_restriction_usage],     ADD EVENT [sqlserver].[always_encrypted_query_count],     ADD EVENT [sqlserver].[rls_query_count],     ADD EVENT [sqlserver].[auto_stats],     ADD EVENT [sqlserver].[database_cmptlevel_change],     ADD EVENT [sqlserver].[database_created],     ADD EVENT [sqlserver].[database_dropped],     ADD EVENT [sqlserver].[reason_many_foreign_keys_operator_not_used],     ADD EVENT [sqlserver].[interleaved_exec_status],     ADD EVENT [sqlserver].[table_variable_deferred_compilation],     ADD EVENT [sqlserver].[graph_match_query_compiled],     ADD EVENT [sqlserver].[approximate_count_distinct_query_compiled],     ADD EVENT [sqlserver].[login_protocol_count],     ADD EVENT [sqlserver].[column_store_index_build_low_memory],     ADD EVENT [sqlserver].[column_store_index_build_throttle],     ADD EVENT [sqlserver].[columnstore_delete_buffer_flush_failed],     ADD EVENT [sqlserver].[columnstore_delta_rowgroup_closed],     ADD EVENT [sqlserver].[columnstore_index_reorg_failed],     ADD EVENT [sqlserver].[columnstore_log_exception],     ADD EVENT [sqlserver].[columnstore_rowgroup_merge_failed],     ADD EVENT [sqlserver].[columnstore_tuple_mover_delete_buffer_truncate_timed_out],     ADD EVENT [sqlserver].[columnstore_tuple_mover_end_compress],     ADD EVENT [sqlserver].[query_memory_grant_blocking],     ADD EVENT [sqlserver].[natively_compiled_module_inefficiency_detected],     ADD EVENT [sqlserver].[natively_compiled_proc_slow_parameter_passing],     ADD EVENT [sqlserver].[xtp_alter_table],     ADD EVENT [sqlserver].[xtp_db_delete_only_mode_updatedhktrimlsn],     ADD EVENT [sqlserver].[xtp_stgif_container_added],     ADD EVENT [sqlserver].[xtp_stgif_container_deleted],     ADD EVENT [xtpcompile].[cl_duration],     ADD EVENT [xtpengine].[xtp_physical_db_restarted],     ADD EVENT [xtpengine].[xtp_db_delete_only_mode_enter],     ADD EVENT [xtpengine].[xtp_db_delete_only_mode_update],     ADD EVENT [xtpengine].[xtp_db_delete_only_mode_exit],     ADD EVENT [xtpengine].[parallel_alter_stats],     ADD EVENT [xtpengine].[serial_alter_stats],     ADD EVENT [sqlserver].[json_function_compiled]  (  ACTION ([database_id])  ),     ADD EVENT [sqlserver].[string_escape_compiled]  (  ACTION ([database_id])  ),     ADD EVENT [sqlserver].[window_function_used]  (  ACTION ([database_id])  ),     ADD EVENT [sqlserver].[sequence_function_used]  (  ACTION ([database_id])  ),     ADD EVENT [qds].[query_store_db_diagnostics],     ADD EVENT [sqlserver].[index_defragmentation],     ADD EVENT [sqlserver].[create_index_event],     ADD EVENT [sqlserver].[index_build_error_event],     ADD EVENT [sqlserver].[alter_column_event],     ADD EVENT [sqlserver].[cardinality_estimation_version_usage],     ADD EVENT [sqlserver].[query_optimizer_compatibility_level_hint_usage],     ADD EVENT [sqlserver].[query_tsql_scalar_udf_inlined],     ADD EVENT [sqlserver].[tsql_scalar_udf_not_inlineable],     ADD EVENT [sqlserver].[recovery_checkpoint_stats],     ADD EVENT [sqlserver].[multistep_execution]  (  ACTION ([database_id])  ),     ADD EVENT [sqlserver].[fulltext_filter_usage],     ADD EVENT [sqlserver].[tx_commit_abort_stats],     ADD EVENT [sqlserver].[server_start_stop]  add target package0.ring_buffer  (set occurrence_number = 100)  with  (   MAX_DISPATCH_LATENCY = 120 SECONDS,   MAX_MEMORY = 4 MB,   startup_state = on  )  if not exists (select * from sys.dm_xe_sessions where name = 'telemetry_xevents')   alter event session telemetry_xevents on server state=start  ",SQLServerCEIP,NT SERVICE\SQLTELEMETRY,16,1531,2,13644,9728,52,13:24.0,13:24.0,1,master,1732,0,,0
+54,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,449,22076,60,13:24.7,13:24.7,5,CabRides,1733,1,370094,0
+55,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,451,22076,60,13:26.7,13:26.7,5,CabRides,1734,1,370094,0
+56,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,16,40,0,4049,22076,60,13:28.7,13:28.7,5,CabRides,1735,1,370094,0
+57,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,84,0,2004571,22076,60,13:30.7,13:32.7,5,CabRides,1736,0,370094,0
+58,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,85,22076,60,13:32.7,13:32.7,5,CabRides,1737,1,370094,0
+59,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5729,22076,60,13:34.7,13:34.7,5,CabRides,1738,1,370094,0
+60,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,902,22076,60,13:36.7,13:36.7,5,CabRides,1739,1,370094,0
+61,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,1,0,855,22076,60,13:38.7,13:38.7,5,CabRides,1740,1,370094,0
+62,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,1,0,224,22076,60,13:40.7,13:40.7,5,CabRides,1741,1,370094,0
+63,12,select * from Weather.dbo.weather,Python,temp,0,6,0,2005818,22076,60,13:42.7,13:44.7,5,CabRides,1742,0,370094,0
+64,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2008826,22076,60,13:44.7,13:46.7,5,CabRides,1743,0,370094,0
+65,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2006083,22076,60,13:46.8,13:48.8,7,Telecom,1744,0,370094,0
+66,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,3272,22076,60,13:48.8,13:48.8,7,Telecom,1745,1,370094,0
+67,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,26,0,1309,22076,60,13:50.8,13:50.8,7,Telecom,1746,1,370094,0
+68,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2004607,22076,60,13:52.8,13:54.8,6,Students,1747,0,370094,0
+69,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,40,0,1670,22076,60,13:54.8,13:54.8,6,Students,1748,1,370094,0
+70,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2006052,22076,60,13:56.8,13:58.8,6,Students,1749,0,370094,0
+71,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2009985,22076,60,13:58.8,14:00.8,6,Students,1750,0,370094,0
+72,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,2478,22076,60,14:00.8,14:00.8,6,Students,1751,1,370094,0
+73,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2005009,22076,60,14:02.8,14:04.8,6,Students,1752,0,370094,0
+74,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2012199,22076,60,14:04.8,14:06.8,7,Telecom,1753,0,370094,0
+75,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2009601,22076,60,14:06.8,14:08.8,8,Weather,1754,0,370094,0
+76,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,40,0,1133,22076,60,14:08.8,14:08.8,8,Weather,1755,1,370094,0
+77,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2009249,22076,60,14:10.8,14:12.9,7,Telecom,1756,0,370094,0
+78,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,32,0,2000039,22076,60,14:12.9,14:14.9,8,Weather,1757,0,370094,0
+79,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,84,0,2004061,22076,60,14:14.9,14:16.9,5,CabRides,1758,0,370094,0
+80,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,989,22076,60,14:16.9,14:16.9,5,CabRides,1759,1,370094,0
+81,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,2796,22076,60,14:18.9,14:18.9,5,CabRides,1760,1,370094,0
+82,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2009861,22076,60,14:20.9,14:22.9,5,CabRides,1761,0,370094,0
+83,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,16,25,0,2854,22076,60,14:22.9,14:22.9,5,CabRides,1762,1,370094,0
+84,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2005368,22076,60,14:24.9,14:26.9,5,CabRides,1763,0,370094,0
+85,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5828,22076,60,14:26.9,14:26.9,5,CabRides,1764,1,370094,0
+86,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2006395,22076,60,14:28.9,14:30.9,8,Weather,1765,0,370094,0
+87,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,68,0,2015931,22076,60,14:30.9,14:32.9,5,CabRides,1766,0,370094,0
+88,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,1,0,633,22076,60,14:32.9,14:32.9,5,CabRides,1767,1,370094,0
+89,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,40,0,997,22076,60,14:34.9,14:34.9,5,CabRides,1768,1,370094,0
+90,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,1,0,714,22076,60,14:36.9,14:36.9,5,CabRides,1769,1,370094,0
+91,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,276,22076,60,14:38.9,14:38.9,5,CabRides,1770,1,370094,0
+92,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2017396,22076,60,14:41.0,14:43.0,5,CabRides,1771,0,370094,0
+93,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,2,0,819,22076,60,14:43.0,14:43.0,5,CabRides,1772,1,370094,0
+94,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,8,0,491,22076,60,14:45.0,14:45.0,5,CabRides,1773,1,370094,0
+95,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,217,22076,60,14:47.0,14:47.0,5,CabRides,1774,1,370094,0
+96,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,2,0,709,22076,60,14:49.0,14:49.0,5,CabRides,1775,1,370094,0
+97,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2003471,22076,60,14:51.0,4/22/2021 10:14,5,CabRides,1776,0,370094,0
+98,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,59,0,1697,22076,60,4/22/2021 10:14,4/22/2021 10:14,5,CabRides,1777,1,370094,0
+99,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,1,0,306,22076,60,14:55.0,14:55.0,5,CabRides,1778,1,370094,0
+100,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,284,22076,60,14:57.0,14:57.0,5,CabRides,1779,1,370094,0
+101,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,27,0,1102,22076,60,14:59.0,14:59.0,5,CabRides,1780,1,370094,0
+102,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,455,22076,60,15:01.0,15:01.0,5,CabRides,1781,1,370094,0
+103,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,1146,22076,60,15:03.0,15:03.0,5,CabRides,1782,1,370094,0
+104,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2004523,22076,60,15:05.0,15:07.0,7,Telecom,1783,0,370094,0
+105,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2004894,22076,60,15:07.0,15:09.0,6,Students,1784,0,370094,0
+106,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,26,0,819,22076,60,15:09.0,15:09.0,6,Students,1785,1,370094,0
+107,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,39,0,4128,22076,60,15:11.0,15:11.1,6,Students,1786,1,370094,0
+108,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2003544,22076,60,15:13.1,15:15.1,6,Students,1787,0,370094,0
+109,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2002538,22076,60,15:15.1,15:17.1,6,Students,1788,0,370094,0
+110,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2003237,22076,60,15:17.1,15:19.1,8,Weather,1789,0,370094,0
+111,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,768,22076,60,15:19.1,15:19.1,8,Weather,1790,1,370094,0
+112,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2003679,22076,60,15:21.1,15:23.1,8,Weather,1791,0,370094,0
+113,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2005200,22076,60,15:23.1,15:25.1,8,Weather,1792,0,370094,0
+114,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,60,1,3838,22076,60,15:25.1,15:25.1,8,Weather,1793,1,370094,0
+115,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2006268,22076,60,15:27.1,15:29.1,8,Weather,1794,0,370094,0
+116,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,43,0,2131,22076,60,15:29.1,15:29.1,8,Weather,1795,1,370094,0
+117,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,85,0,2005592,22076,60,15:31.1,15:33.1,5,CabRides,1796,0,370094,0
+118,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2002380,22076,60,15:33.1,15:35.1,7,Telecom,1797,0,370094,0
+119,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2003969,22076,60,15:35.1,15:37.1,7,Telecom,1798,0,370094,0
+120,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,2687,22076,60,15:37.1,15:37.1,7,Telecom,1799,1,370094,0
+121,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,85,0,2004286,22076,60,15:39.1,15:41.1,5,CabRides,1800,0,370094,0
+122,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2004333,22076,60,15:41.1,15:43.1,5,CabRides,1801,0,370094,0
+123,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5686,22076,60,15:43.1,15:43.1,5,CabRides,1802,1,370094,0
+124,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,26,0,2922,22076,60,15:45.1,15:45.1,5,CabRides,1803,1,370094,0
+125,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,1580,22076,60,15:47.1,15:47.1,5,CabRides,1804,1,370094,0
+126,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2005668,22076,60,15:49.1,15:51.1,8,Weather,1805,0,370094,0
+127,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2002046,22076,60,15:51.1,15:53.1,8,Weather,1806,0,370094,0
+128,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,64,0,1324,22076,60,15:53.1,15:53.1,8,Weather,1807,1,370094,0
+129,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2015125,22076,60,15:55.1,15:57.2,6,Students,1808,0,370094,0
+130,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,16,20,0,2748,22076,60,15:57.2,15:57.2,6,Students,1809,1,370094,0
+131,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,60,0,1264,22076,60,15:59.2,15:59.2,6,Students,1810,1,370094,0
+132,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,64,0,3017,22076,60,16:01.2,16:01.2,6,Students,1811,1,370094,0
+133,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,42,0,1198,22076,60,16:03.2,16:03.2,6,Students,1812,1,370094,0
+134,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2004165,22076,60,16:05.2,16:07.2,7,Telecom,1813,0,370094,0
+135,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2003914,22076,60,16:07.2,16:09.2,7,Telecom,1814,0,370094,0
+136,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2005988,22076,60,16:09.2,16:11.2,7,Telecom,1815,0,370094,0
+137,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2777,22076,60,16:11.2,16:11.2,7,Telecom,1816,1,370094,0
+138,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,1511,22076,60,16:13.2,16:13.2,7,Telecom,1817,1,370094,0
+139,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,2515,22076,60,16:15.2,16:15.2,7,Telecom,1818,1,370094,0
+140,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2004356,22076,60,16:17.2,16:19.2,7,Telecom,1819,0,370094,0
+141,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2002731,22076,60,16:19.2,16:21.2,7,Telecom,1820,0,370094,0
+142,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2934,22076,60,16:21.2,16:21.2,7,Telecom,1821,1,370094,0
+143,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,39,0,2326,22076,60,16:23.2,16:23.2,7,Telecom,1822,1,370094,0
+144,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2004949,22076,60,16:25.2,16:27.2,7,Telecom,1823,0,370094,0
+145,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,2,0,627,22076,60,16:27.2,16:27.2,7,Telecom,1824,1,370094,0
+146,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2016050,22076,60,16:29.2,16:31.3,8,Weather,1825,0,370094,0
+147,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2016097,22076,60,16:31.3,16:33.3,8,Weather,1826,0,370094,0
+148,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2004077,22076,60,16:33.3,16:35.3,8,Weather,1827,0,370094,0
+149,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,86,0,2011436,22076,60,16:35.3,16:37.3,5,CabRides,1828,0,370094,0
+150,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2002310,22076,60,16:37.3,16:39.3,5,CabRides,1829,0,370094,0
+151,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,721,22076,60,16:39.3,16:39.3,5,CabRides,1830,1,370094,0
+152,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,15,40,0,3960,22076,60,16:41.3,16:41.3,5,CabRides,1831,1,370094,0
+153,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,26,0,1294,22076,60,16:43.3,16:43.3,5,CabRides,1832,1,370094,0
+154,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,3351,22076,60,16:45.3,16:45.3,5,CabRides,1833,1,370094,0
+155,12,select * from Students.dbo.StudentsPerformance,Python,temp,16,21,0,2003876,22076,60,16:47.3,16:49.3,5,CabRides,1834,0,370094,0
+156,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,1415,22076,60,16:49.3,16:49.3,5,CabRides,1835,1,370094,0
+157,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,61,0,4572,22076,60,16:51.4,16:51.4,5,CabRides,1836,1,370094,0
+158,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,1,0,948,22076,60,16:53.4,16:53.4,5,CabRides,1837,1,370094,0
+159,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2003883,22076,60,16:55.4,16:57.4,7,Telecom,1838,0,370094,0
+160,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,27,0,2984,22076,60,16:57.4,16:57.4,7,Telecom,1839,1,370094,0
+161,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,1421,22076,60,16:59.4,16:59.4,7,Telecom,1840,1,370094,0
+162,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,1,0,699,22076,60,17:01.4,17:01.4,7,Telecom,1841,1,370094,0
+163,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,574,22076,60,17:03.4,17:03.4,7,Telecom,1842,1,370094,0
+164,12,select * from Weather.dbo.weather,Python,temp,0,6,0,2003715,22076,60,17:05.4,17:07.4,7,Telecom,1843,0,370094,0
+165,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,32,0,2003916,22076,60,17:07.4,17:09.4,8,Weather,1844,0,370094,0
+166,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,3003,22076,60,17:09.4,17:09.4,8,Weather,1845,1,370094,0
+167,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,40,0,1090,22076,60,17:11.4,17:11.4,8,Weather,1846,1,370094,0
+168,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,32,0,2003850,22076,60,17:13.4,17:15.4,8,Weather,1847,0,370094,0
+169,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2004797,22076,60,17:15.4,17:17.4,8,Weather,1848,0,370094,0
+170,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,3939,22076,60,17:17.4,17:17.4,8,Weather,1849,1,370094,0
+171,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,64,0,5063,22076,60,17:19.4,17:19.4,8,Weather,1850,1,370094,0
+172,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,62,1,4715,22076,60,17:21.4,17:21.4,8,Weather,1851,1,370094,0
+173,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2003203,22076,60,17:23.5,17:25.5,7,Telecom,1852,0,370094,0
+174,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,63,0,1277,22076,60,17:25.5,17:25.5,7,Telecom,1853,1,370094,0
+175,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2004195,22076,60,17:27.5,17:29.5,7,Telecom,1854,0,370094,0
+176,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2003516,22076,60,17:29.5,17:31.5,7,Telecom,1855,0,370094,0
+177,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,19,0,2994,22076,60,17:31.5,17:31.5,7,Telecom,1856,1,370094,0
+178,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,16,12,0,2002773,22076,60,17:33.5,17:35.5,7,Telecom,1857,0,370094,0
+179,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,48,0,2017710,22076,60,17:35.5,17:37.5,8,Weather,1858,0,370094,0
+180,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,2779,22076,60,17:37.5,17:37.5,8,Weather,1859,1,370094,0
+181,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2014520,22076,60,17:39.5,17:41.5,8,Weather,1860,0,370094,0
+182,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,36,0,1044,22076,60,17:41.5,17:41.5,8,Weather,1861,1,370094,0
+183,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2004764,22076,60,17:43.5,17:45.5,8,Weather,1862,0,370094,0
+184,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,1318,22076,60,17:45.5,17:45.5,8,Weather,1863,1,370094,0
+185,12,select * from CabRides.dbo.cab_rides,Python,temp,0,6,0,2003199,22076,60,17:47.5,17:49.5,8,Weather,1864,0,370094,0
+186,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,945,22076,60,17:49.5,17:49.5,8,Weather,1865,1,370094,0
+187,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,134,22076,60,17:51.5,17:51.5,8,Weather,1866,1,370094,0
+188,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,1,0,821,22076,60,17:53.5,17:53.5,8,Weather,1867,1,370094,0
+189,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,535,22076,60,17:55.5,17:55.5,8,Weather,1868,1,370094,0
+190,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,12,0,2004401,22076,60,17:57.6,17:59.6,7,Telecom,1869,0,370094,0
+191,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,87,0,2003377,22076,60,17:59.6,18:01.6,5,CabRides,1870,0,370094,0
+192,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,62,0,4646,22076,60,18:01.6,18:01.6,5,CabRides,1871,1,370094,0
+193,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,27,0,3049,22076,60,18:03.6,18:03.6,5,CabRides,1872,1,370094,0
+194,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2005181,22076,60,18:05.6,18:07.6,5,CabRides,1873,0,370094,0
+195,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,26,0,2819,22076,60,18:07.6,18:07.6,5,CabRides,1874,1,370094,0
+196,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2006752,22076,60,18:09.6,18:11.6,6,Students,1875,0,370094,0
+197,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2016010,22076,60,18:11.6,18:13.6,6,Students,1876,0,370094,0
+198,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,63,1,4702,22076,60,18:13.6,18:13.6,6,Students,1877,1,370094,0
+199,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,2731,22076,60,18:15.6,18:15.6,6,Students,1878,1,370094,0
+200,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,88,0,2017204,22076,60,18:17.6,18:19.6,5,CabRides,1879,0,370094,0
+201,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,2803,22076,60,18:19.6,18:19.6,5,CabRides,1880,1,370094,0
+202,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,184,22076,60,18:21.7,18:21.7,5,CabRides,1881,1,370094,0
+203,10,exec sp_reset_connection,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,50,9728,52,18:24.0,18:24.0,1,master,1882,,,0
+204,12,SET DEADLOCK_PRIORITY -10,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,271,9728,52,18:24.0,18:24.0,1,master,1883,0,,0
+205,12,SELECT target_data           FROM sys.dm_xe_session_targets xet WITH(nolock)           JOIN sys.dm_xe_sessions xes WITH(nolock)           ON xes.address = xet.event_session_address           WHERE xes.name = 'telemetry_xevents'           AND xet.target_name = 'ring_buffer',SQLServerCEIP,NT SERVICE\SQLTELEMETRY,47,424,0,57130,9728,52,18:24.0,18:24.1,1,master,1884,1,,0
+206,10,exec sp_reset_connection,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,11,9728,52,18:24.1,18:24.1,1,master,1885,,,0
+207,12,SET DEADLOCK_PRIORITY -10,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,0,0,22,9728,52,18:24.1,18:24.1,1,master,1886,0,,0
+208,12,if not exists (select * from sys.dm_xe_sessions where name = 'telemetry_xevents')   alter event session telemetry_xevents on server state=start,SQLServerCEIP,NT SERVICE\SQLTELEMETRY,0,20,0,835,9728,52,18:24.1,18:24.1,1,master,1887,0,,0
+209,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,10,0,2007071,22076,60,18:23.7,18:25.7,6,Students,1888,0,370094,0
+210,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2003273,22076,60,18:25.7,18:27.7,7,Telecom,1889,0,370094,0
+211,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2004564,22076,60,18:27.7,18:29.7,7,Telecom,1890,0,370094,0
+212,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2955,22076,60,18:29.7,18:29.7,7,Telecom,1891,1,370094,0
+213,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,2954,22076,60,18:31.7,18:31.7,7,Telecom,1892,1,370094,0
+214,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,16,26,0,3072,22076,60,18:33.7,18:33.7,7,Telecom,1893,1,370094,0
+215,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2006219,22076,60,18:35.7,18:37.7,6,Students,1894,0,370094,0
+216,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5953,22076,60,18:37.7,18:37.7,6,Students,1895,1,370094,0
+217,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,64,0,3342,22076,60,18:39.7,18:39.7,6,Students,1896,1,370094,0
+218,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,45,0,892,22076,60,18:41.7,18:41.7,6,Students,1897,1,370094,0
+219,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,47,1,2394,22076,60,18:43.7,18:43.7,6,Students,1898,1,370094,0
+220,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,39,0,1290,22076,60,18:45.8,18:45.8,6,Students,1899,1,370094,0
+221,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2003784,22076,60,18:47.8,18:49.8,6,Students,1900,0,370094,0
+222,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,49,0,2002691,22076,60,18:49.8,18:51.8,8,Weather,1901,0,370094,0
+223,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2003408,22076,60,18:51.8,18:53.8,8,Weather,1902,0,370094,0
+224,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2002540,22076,60,18:53.8,18:55.8,8,Weather,1903,0,370094,0
+225,12,select * from CabRides.dbo.cab_rides,Python,temp,0,6,0,2015281,22076,60,18:55.8,18:57.8,8,Weather,1904,0,370094,0
+226,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,28,0,2013028,22076,60,18:57.8,18:59.8,7,Telecom,1905,0,370094,0
+227,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,89,0,2004446,22076,60,18:59.8,19:01.8,5,CabRides,1906,0,370094,0
+228,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,814,22076,60,19:01.8,19:01.8,5,CabRides,1907,1,370094,0
+229,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,258,22076,60,19:03.8,19:03.8,5,CabRides,1908,1,370094,0
+230,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2016139,22076,60,19:05.8,19:07.8,6,Students,1909,0,370094,0
+231,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,26,0,2927,22076,60,19:07.8,19:07.8,6,Students,1910,1,370094,0
+232,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2006326,22076,60,19:09.8,19:11.9,6,Students,1911,0,370094,0
+233,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,13,0,2013208,22076,60,19:11.9,19:13.9,7,Telecom,1912,0,370094,0
+234,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,40,0,3963,22076,60,19:13.9,19:13.9,7,Telecom,1913,1,370094,0
+235,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,436,22076,60,19:15.9,19:15.9,7,Telecom,1914,1,370094,0
+236,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,1,0,755,22076,60,19:17.9,19:17.9,7,Telecom,1915,1,370094,0
+237,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,10,0,2005335,22076,60,19:19.9,19:21.9,6,Students,1916,0,370094,0
+238,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,422,22076,60,19:21.9,19:21.9,6,Students,1917,1,370094,0
+239,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,13,0,2003285,22076,60,19:23.9,19:25.9,7,Telecom,1918,0,370094,0
+240,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,64,0,1573,22076,60,19:25.9,19:25.9,7,Telecom,1919,1,370094,0
+241,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,7,0,153,22076,60,19:27.9,19:27.9,7,Telecom,1920,1,370094,0
+242,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,7,0,153,22076,60,19:29.9,19:29.9,7,Telecom,1921,1,370094,0
+243,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2000870,22076,60,19:31.9,19:33.9,7,Telecom,1922,0,370094,0
+244,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,3384,22076,60,19:33.9,19:33.9,7,Telecom,1923,1,370094,0
+245,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,64,0,4969,22076,60,19:35.9,19:36.0,7,Telecom,1924,1,370094,0
+246,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,1,0,513,22076,60,19:37.9,19:37.9,7,Telecom,1925,1,370094,0
+247,12,select * from Weather.dbo.weather,Python,temp,0,20,0,2015236,22076,60,19:39.9,19:42.0,7,Telecom,1926,0,370094,0
+248,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2012277,22076,60,19:42.0,19:44.0,7,Telecom,1927,0,370094,0
+249,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,29,0,2007740,22076,60,19:44.0,19:46.0,7,Telecom,1928,0,370094,0
+250,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,1725,22076,60,19:46.0,19:46.0,7,Telecom,1929,1,370094,0
+251,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,47,1,2325,22076,60,19:48.0,19:48.0,7,Telecom,1930,1,370094,0
+252,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2008679,22076,60,19:50.0,4/22/2021 10:19,7,Telecom,1931,0,370094,0
+253,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,40,0,3900,22076,60,19:52.0,19:52.0,7,Telecom,1932,1,370094,0
+254,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,902,22076,60,19:54.0,19:54.0,7,Telecom,1933,1,370094,0
+255,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,1351,22076,60,19:56.0,19:56.0,7,Telecom,1934,1,370094,0
+256,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,89,0,2006552,22076,60,19:58.0,20:00.0,5,CabRides,1935,0,370094,0
+257,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,758,22076,60,20:00.0,20:00.0,5,CabRides,1936,1,370094,0
+258,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,892,22076,60,20:02.0,20:02.0,5,CabRides,1937,1,370094,0
+259,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2004125,22076,60,20:04.0,20:06.0,5,CabRides,1938,0,370094,0
+260,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,213,22076,60,20:06.0,20:06.0,5,CabRides,1939,1,370094,0
+261,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2003166,22076,60,20:08.1,20:10.1,5,CabRides,1940,0,370094,0
+262,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,525,22076,60,20:10.0,20:10.0,5,CabRides,1941,1,370094,0
+263,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,39,0,3881,22076,60,20:12.1,20:12.1,5,CabRides,1942,1,370094,0
+264,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,2,0,740,22076,60,20:14.1,20:14.1,5,CabRides,1943,1,370094,0
+265,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2923,22076,60,20:16.1,20:16.1,5,CabRides,1944,1,370094,0
+266,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,26,0,2980,22076,60,20:18.1,20:18.1,5,CabRides,1945,1,370094,0
+267,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,3292,22076,60,20:20.1,20:20.1,5,CabRides,1946,1,370094,0
+268,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2003448,22076,60,20:22.1,20:24.1,5,CabRides,1947,0,370094,0
+269,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,7,0,2002664,22076,60,20:24.1,20:26.1,5,CabRides,1948,0,370094,0
+270,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,9,0,438,22076,60,20:26.1,20:26.1,5,CabRides,1949,1,370094,0
+271,12,select * from CabRides.dbo.cab_rides,Python,temp,0,6,0,2004253,22076,60,20:28.1,20:30.1,5,CabRides,1950,0,370094,0
+272,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,1,0,684,22076,60,20:30.1,20:30.1,5,CabRides,1951,1,370094,0
+273,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,200,22076,60,20:32.1,20:32.1,5,CabRides,1952,1,370094,0
+274,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5629,22076,60,20:34.1,20:34.1,5,CabRides,1953,1,370094,0
+275,12,select * from CabRides.dbo.cab_rides,Python,temp,0,6,0,2006122,22076,60,20:36.1,20:38.1,5,CabRides,1954,0,370094,0
+276,12,use Students select top 1000 * from StudentsPerformance where gender='male',Python,temp,0,26,0,2012396,22076,60,20:38.1,20:40.2,6,Students,1955,0,370094,0
+277,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,16,66,0,4625,22076,60,20:40.2,20:40.2,6,Students,1956,1,370094,0
+278,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,913,22076,60,20:42.2,20:42.2,6,Students,1957,1,370094,0
+279,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,47,0,592,22076,60,20:44.2,20:44.2,6,Students,1958,1,370094,0
+280,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,49,0,2003202,22076,60,20:46.2,20:48.2,8,Weather,1959,0,370094,0
+281,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2800,22076,60,20:48.2,20:48.2,8,Weather,1960,1,370094,0
+282,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2003222,22076,60,20:50.2,20:52.2,8,Weather,1961,0,370094,0
+283,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,28,0,1058,22076,60,20:52.2,20:52.2,8,Weather,1962,1,370094,0
+284,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,7,0,2005195,22076,60,20:54.2,20:56.2,8,Weather,1963,0,370094,0
+285,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,11,1,862,22076,60,20:56.2,20:56.2,8,Weather,1964,1,370094,0
+286,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,29,0,2003370,22076,60,20:58.2,21:00.2,7,Telecom,1965,0,370094,0
+287,12,select * from CabRides.dbo.cab_rides,Python,temp,0,20,0,2001663,22076,60,21:00.2,21:02.2,7,Telecom,1966,0,370094,0
+288,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,49,0,2004333,22076,60,21:02.2,21:04.2,8,Weather,1967,0,370094,0
+289,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,702,22076,60,21:04.2,21:04.2,8,Weather,1968,1,370094,0
+290,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,7,0,492,22076,60,21:06.2,21:06.2,8,Weather,1969,1,370094,0
+291,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,15,65,0,4790,22076,60,21:08.2,21:08.2,8,Weather,1970,1,370094,0
+292,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2004133,22076,60,21:10.3,21:12.3,8,Weather,1971,0,370094,0
+293,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,174,22076,60,21:12.3,21:12.3,8,Weather,1972,1,370094,0
+294,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,39,0,1011,22076,60,21:14.3,21:14.3,8,Weather,1973,1,370094,0
+295,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,0,1,0,210,22076,60,21:16.3,21:16.3,8,Weather,1974,1,370094,0
+296,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,3321,22076,60,21:18.3,21:18.3,8,Weather,1975,1,370094,0
+297,12,use Telecom select top 1000 * from telecom_users where InternetService='DSL',Python,temp,0,13,0,2005338,22076,60,21:20.3,21:22.3,7,Telecom,1976,0,370094,0
+298,12,select * from Telecom.dbo.telecom_users,Python,temp,0,21,0,2003589,22076,60,21:22.3,21:24.3,7,Telecom,1977,0,370094,0
+299,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,16,26,0,2519,22076,60,21:24.3,21:24.3,7,Telecom,1978,1,370094,0
+300,12,"insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)",Python,temp,0,35,0,3412,22076,60,21:26.3,21:26.3,7,Telecom,1979,1,370094,0
+301,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5833,22076,60,21:28.3,21:28.3,7,Telecom,1980,1,370094,0
+302,12,delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL',Python,temp,0,8,0,448,22076,60,21:30.3,21:30.3,7,Telecom,1981,1,370094,0
+303,12,select * from Students.dbo.StudentsPerformance,Python,temp,0,21,0,2003262,22076,60,21:32.3,21:34.3,7,Telecom,1982,0,370094,0
+304,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,2839,22076,60,21:34.3,21:34.4,7,Telecom,1983,1,370094,0
+305,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,91,0,2015766,22076,60,21:36.4,21:38.4,5,CabRides,1984,0,370094,0
+306,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,20,0,2652,22076,60,21:38.4,21:38.4,5,CabRides,1985,1,370094,0
+307,12,"insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53)",Python,temp,0,1,0,312,22076,60,21:40.4,21:40.4,5,CabRides,1986,1,370094,0
+308,12,delete top (1) from CabRides.dbo.cab_rides where name='Lyft',Python,temp,0,66,1,4618,22076,60,21:42.4,21:42.4,5,CabRides,1987,1,370094,0
+309,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,91,0,2005962,22076,60,21:44.4,21:46.4,5,CabRides,1988,0,370094,0
+310,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,25,0,3002,22076,60,21:46.4,21:46.4,5,CabRides,1989,1,370094,0
+311,12,use Weather select top 1000 * from weather where location='Fenway',Python,temp,0,49,0,2003564,22076,60,21:48.4,21:50.4,8,Weather,1990,0,370094,0
+312,12,use CabRides select top 1000 * from cab_rides where name='Lyft',Python,temp,0,91,0,2017460,22076,60,21:50.4,21:52.4,5,CabRides,1991,0,370094,0
+313,12,delete top (1) from Weather.dbo.weather where location='Fenway',Python,temp,0,7,0,476,22076,60,21:52.4,21:52.4,5,CabRides,1992,1,370094,0
+314,12,"insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')",Python,temp,15,40,0,4175,22076,60,21:54.5,21:54.5,5,CabRides,1993,1,370094,0
+315,12,"insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No')",Python,temp,0,63,0,5104,22076,60,21:56.5,21:56.5,5,CabRides,1994,1,370094,0
+316,12,delete top (1) from Students.dbo.StudentsPerformance where gender='male',Python,temp,0,25,0,3079,22076,60,21:58.5,21:58.5,5,CabRides,1995,1,370094,0
+317,65533,,,,,,,,,,22:46.1,,,,,,,

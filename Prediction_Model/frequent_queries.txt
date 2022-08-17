@@ -1,0 +1,12 @@
+Frequent Query 1: DECLARE @cnt INT = 0;    WHILE @cnt < 10  BEGIN      select * from CabRides.dbo.cab_rides;      select * from Students.dbo.StudentsPerformance;      select * from Telecom.dbo.telecom_users;      select * from Weather.dbo.weather;      use CabRides select top 1000 * from cab_rides where name='Lyft';      use Students select top 1000 * from StudentsPerformance where gender='male';      use Telecom select top 1000 * from telecom_users where InternetService='DSL';      use Weather select top 1000 * from weather where location='Fenway';      insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX');      insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94);      insert into Telecom.dbo.telecom_users values (6780, '7010-BRBUU', 'Male', 0, 'Yes', 'No', 75, 'Yes', 'No', 'DSL', 'Yes', 'No', 'No', 'Yes', 'No', 'No', 'Two Year', 'Yes', 'Credit card', 24.2, 3370.2, 'No');      insert into Weather.dbo.weather values (42.45, 'Fenway', 1, 1012.17, 0.1089, default, 0.96, 1.53);      delete top (1) from CabRides.dbo.cab_rides where name='Lyft';      delete top (1) from Students.dbo.StudentsPerformance where gender='male';      delete top (1) from Telecom.dbo.telecom_users where InternetService='DSL';      delete top (1) from Weather.dbo.weather where location='Fenway';   SET @cnt = @cnt + 1;  END;
+Frequent Query 2: insert into CabRides.dbo.cab_rides values (0.44, 'Lyft', 1540000000000, 'North Station', 'Haymarket Square', 16.5, 1, 'e8bac1d1-6e83-4ebd-a0a9-bfcf9de1a86f', 'lyft_line', 'UberX')
+Frequent Query 3: insert into Students.dbo.StudentsPerformance values ('female', 'group B', 'bachelors degree', 'standard', 'completed', 72, 80, 94)
+Frequent Query 4: select * from CabRides.dbo.cab_rides
+Frequent Query 5: select * from Students.dbo.StudentsPerformance
+Frequent Query 6: select * from Telecom.dbo.telecom_users
+Frequent Query 7: select * from Weather.dbo.weather
+Frequent Query 8: use CabRides select top 1000 * from cab_rides where name='Lyft'
+Frequent Query 9: use Students select top 1000 * from StudentsPerformance where gender='male'
+Frequent Query 10: use Telecom select top 1000 * from telecom_users where InternetService='DSL'
+Frequent Query 11: use Weather select top 1000 * from weather where location='Fenway'
+_______________________________ 
